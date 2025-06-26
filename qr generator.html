@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QR Generator</title>
+  <link rel="stylesheet" href="qr generato.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>QR Code Generator</h2>
+    <input type="text" id="text" placeholder="Enter text or link..." />
+    
+    <div class="btn-group">
+      <button class="submit-btn" onclick="generateQR()">Submit</button>
+      <button class="clear-btn" onclick="clearQR()">Clear</button>
+    </div>
+
+    <div id="qrbox" class="qr-box">
+      <div id="qrcode"></div>
+    </div>
+  </div>
+
+  <!-- QRCode.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+
+  <script>
+    function generateQR() {
+      const input = document.getElementById("text").value;
+      const qrDiv = document.getElementById("qrcode");
+      const qrBox = document.getElementById("qrbox");
+
+      qrDiv.innerHTML = "";
+
+      if (input.trim() !== "") {
+        qrBox.style.display = "flex";
+        new QRCode(qrDiv, {
+          text: input,
+          width: 180,
+          height: 180,
+          colorDark: "#000000",
+          colorLight: "#ffffff",
+          correctLevel: QRCode.CorrectLevel.H
+        });
+      } else {
+        alert("Please enter some text.");
+        qrBox.style.display = "none";
+      }
+    }
+
+    function clearQR() {
+      document.getElementById("text").value = "";
+      document.getElementById("qrcode").innerHTML = "";
+      document.getElementById("qrbox").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>

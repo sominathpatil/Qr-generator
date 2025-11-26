@@ -29,14 +29,14 @@ Uses lightweight and fast QRCode.js CDN
 +---------------------------+
 ```
 ---
-## 📂 Project Structure
+## Project Structure
 ```
 ├── index.html
 ├── qr generator.css
 └── README.md
 ```
 ---
-## 🛠 Technologies Used
+## Technologies Used
 
 HTML5
 
@@ -47,7 +47,7 @@ JavaScript (ES6)
 QR code.js CDN
 
 ---
-## 📜 How It Works
+## How It Works
 
 User enters text or a link in the input field.
 
@@ -93,6 +93,7 @@ Clears input field
 Removes QR code
 
 Hides QR display box
+
 
 
 

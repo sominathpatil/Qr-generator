@@ -27,6 +27,7 @@ Uses lightweight and fast QRCode.js CDN
 |   [Generated QR Code]     |
 +---------------------------+
 
+---
 📂 Project Structure
 .
 ├── index.html
@@ -88,5 +89,6 @@ Clears input field
 Removes QR code
 
 Hides QR display box
+
 
 

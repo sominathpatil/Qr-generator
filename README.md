@@ -5,7 +5,7 @@ This tool allows users to enter any text or URL and instantly generate a QR code
 
 ---
 
-## 🚀 Features
+## Features
 
 Generate QR codes from text or URLs
 
@@ -19,7 +19,7 @@ Uses lightweight and fast QRCode.js CDN
 
 ---
 
-## 📸 Preview
+## Preview
 ```
 +---------------------------+
 |   QR Code Generator       |
@@ -28,7 +28,7 @@ Uses lightweight and fast QRCode.js CDN
 |   [Generated QR Code]     |
 +---------------------------+
 ```
---
+---
 ## 📂 Project Structure
 ```
 ├── index.html
@@ -60,24 +60,24 @@ Generates a new QR using the QRCode() constructor
 Clear button resets both input and QR display
 
 ---
-📎 CDN Used
+### CDN Used
 <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
 
 ▶️ Usage
 
-Clone the repository:
+### Clone the repository:
 
-git clone https://github.com/your-username/qr-code-generator.git
+git clone https://github.com/sominathpatil/qr-code-generator.git
 
 
-Open the project folder:
+### Open the project folder:
 
 cd qr-code-generator
 
 
 Run the project by opening index.html in your browser.
-
-🧩 JavaScript Functions
+---
+## JavaScript Functions
 generateQR()
 
 Reads the input
@@ -93,6 +93,7 @@ Clears input field
 Removes QR code
 
 Hides QR display box
+
 
 
 

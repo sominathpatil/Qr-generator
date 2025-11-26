@@ -1,4 +1,4 @@
-QR Code Generator
+# QR Code Generator
 
 A simple and responsive QR Code Generator built using HTML, CSS, and JavaScript.
 This tool allows users to enter any text or URL and instantly generate a QR code using the QRCode.js library.
@@ -84,3 +84,4 @@ Clears input field
 Removes QR code
 
 Hides QR display box
+

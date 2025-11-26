@@ -19,7 +19,7 @@ Uses lightweight and fast QRCode.js CDN
 
 ---
 
-### 📸 Preview
+## 📸 Preview
 ```
 +---------------------------+
 |   QR Code Generator       |
@@ -35,7 +35,7 @@ Uses lightweight and fast QRCode.js CDN
 ├── qr generator.css
 └── README.md
 ```
---
+---
 ## 🛠 Technologies Used
 
 HTML5
@@ -46,7 +46,7 @@ JavaScript (ES6)
 
 QR code.js CDN
 
---
+---
 ## 📜 How It Works
 
 User enters text or a link in the input field.
@@ -57,8 +57,9 @@ Clears any previous QR code
 
 Generates a new QR using the QRCode() constructor
 
-Clear button resets both input and QR display.
---
+Clear button resets both input and QR display
+
+---
 📎 CDN Used
 <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
 
@@ -92,6 +93,7 @@ Clears input field
 Removes QR code
 
 Hides QR display box
+
 
 
 
